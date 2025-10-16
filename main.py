@@ -17,10 +17,10 @@ load_dotenv()
 logging.basicConfig(level=logging.DEBUG, filename='bot.log', format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Hard-coded Telegram Bot Token (replace 'YOUR_TELEGRAM_BOT_TOKEN_HERE' with your actual token)
-TELEGRAM_BOT_TOKEN = '8218669109:AAF6g0N-31xjhSmBtSG0vUjhg-wvMpG3Cj0'
+TELEGRAM_BOT_TOKEN = ''
 
 # Hard-coded Gemini API key (replace 'YOUR_GEMINI_API_KEY_HERE' with your actual API key)
-GEMINI_API_KEY = 'AIzaSyC-D2P1rJlRUv-q_RwY-g-Zrwbz2hHNm-k'
+GEMINI_API_KEY = '
 
 # Validate that API keys are set
 if not TELEGRAM_BOT_TOKEN:
